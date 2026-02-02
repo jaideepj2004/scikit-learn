@@ -1209,6 +1209,9 @@ class Ridge(MultiOutputMixin, RegressorMixin, _BaseRidge):
     >>> clf = Ridge(alpha=1.0)
     >>> clf.fit(X, y)
     Ridge()
+
+    For an example showing the regularization path, see
+    :ref:`sphx_glr_auto_examples_linear_model_plot_ridge_path.py`.
     """
 
     def __init__(
